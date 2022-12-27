@@ -1,18 +1,18 @@
 ---
 title: Hello World
-description: Welcome to Hugo Theme Stack
+description: Belajar build blog menggunakan hugo
 slug: hello-world
 date: 2022-03-06 00:00:00+0000
 image: cover.jpg
 categories:
-    - Example Category
+- Example Category
 tags:
-    - Example Tag
+- Example Tag
 ---
 
-Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!
+Selamat datang di blog pertama saya!
 
-For more information about this theme, check the documentation: https://docs.stack.jimmycai.com/
+Info lebih lanjut tentang saya, pantau link github: https://github.com/A-fauzi
 
 Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
 
