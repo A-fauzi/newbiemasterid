@@ -76,7 +76,7 @@ enabled = true
 [comments]
 enabled = true
 provider = "disqus"
-disqusShortname = "https-newbiemasterid-vercel-app"
+disqusShortname = https-newbiemasterid-vercel-app
 
 [comments.disqusjs]
 shortname = ""
