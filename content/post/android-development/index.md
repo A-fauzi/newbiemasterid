@@ -1,6 +1,6 @@
 ---
 title: Android Development
-description: Informasi tentang pengembangan aplikasi berbasis android
+description: Informasi pengembangan aplikasi berbasis android
 slug: android-development
 date: 2022-12-28 00:00:00+0000
 image: android.jpg
@@ -11,7 +11,7 @@ tags:
 - Android Dev Tag
 ---
 
-Halo sobat ngab!
+Halo Ngab!,
 
 Pengembangan aplikasi berbasis Android adalah proses membuat aplikasi yang berjalan di perangkat Android. Ini dapat
 termasuk membuat aplikasi untuk telepon atau tablet, atau aplikasi yang dijalankan di perangkat lain yang menggunakan
@@ -31,7 +31,6 @@ integrasi dengan layanan web, dan lain-lain, sesuai dengan kebutuhan aplikasi ya
 
 Pengembangan aplikasi Android dapat menjadi proyek yang menyenangkan dan menantang, dan merupakan cara yang baik untuk
 mempelajari teknologi mobile dan membuat aplikasi yang bermanfaat bagi pengguna.
-
 
 Info lebih lanjut tentang saya, pantau link github: https://github.com/A-fauzi
 

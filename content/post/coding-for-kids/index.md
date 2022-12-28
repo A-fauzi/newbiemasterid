@@ -1,12 +1,12 @@
 ---
 title: Coding For Kids
-description: Mencoba mengenalkan coding pada anak usia dini
-slug: android-development
+description: Memperkenalkan coding pada anak usia dini
+slug: coding-for-kids
 date: 2022-12-28 00:00:00+0000
 image: coding-for-kids.jpg
 categories:
-- Programming
 - Coding
+- Programming
 tags:
 - Coding Tag
 ---
