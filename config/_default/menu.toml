@@ -22,3 +22,19 @@ url = "https://twitter.com/yaandasiapa"
 
 [social.params]
 icon = "brand-twitter"
+
+[[social]]
+identifier = "instagram"
+name = "Instagram"
+url = "https://www.instagram.com/newbiemasterid/"
+
+[social.params]
+icon = "brand-instagram"
+
+[[social]]
+identifier = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/in/afauzi97/"
+
+[social.params]
+icon = "brand-linkedin"

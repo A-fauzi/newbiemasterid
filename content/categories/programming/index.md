@@ -1,6 +1,6 @@
 ---
-title: Coding
-description: Coding Category
+title: Programming
+description: Programming Category
 image:
 
 # Badge style

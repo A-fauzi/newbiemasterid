@@ -1,10 +1,11 @@
 ---
-title: Coding For Young
-description: Memperkenalkan coding pada anak usia dini
-slug: coding-for-young
+title: Coding For Kids
+description: Mencoba mengenalkan coding pada anak usia dini
+slug: android-development
 date: 2022-12-28 00:00:00+0000
 image: coding-for-kids.jpg
 categories:
+- Programming
 - Coding
 tags:
 - Coding Tag
@@ -32,6 +33,7 @@ aplikasi pemrograman yang mudah digunakan.
 Penting untuk diingat bahwa anak-anak usia dini masih membutuhkan bimbingan dan dukungan dari orang tua atau guru untuk
 memahami konsep-konsep koding. Jadi, pastikan untuk terus menyemangati dan mendukung anak-anak dalam proses pembelajaran
 koding mereka.
+
 
 Info lebih lanjut tentang saya, pantau link github: https://github.com/A-fauzi
 
