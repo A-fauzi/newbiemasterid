@@ -1,7 +1,7 @@
 ---
 title: Programming
 description: Programming Category
-image:
+image: img-categorie-programming.jpg
 
 # Badge style
 style:

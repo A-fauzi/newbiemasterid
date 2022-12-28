@@ -1,7 +1,7 @@
 ---
 title: Coding
 description: Coding Category
-image:
+image: img-categorie-coding.jpg
 
 # Badge style
 style:
