@@ -2,7 +2,7 @@
 title: Coding For Young
 description: Memperkenalkan coding pada anak usia dini
 slug: coding-for-young
-date: 2022-03-06 00:00:00+0000
+date: 2022-12-28 00:00:00+0000
 image: coding-for-kids.jpg
 categories:
 - Coding
