@@ -74,8 +74,9 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = false
+enabled = true
 provider = "disqus"
+disqusShortname = "https-koonchung-github-io"
 
 [comments.disqusjs]
 shortname = ""
