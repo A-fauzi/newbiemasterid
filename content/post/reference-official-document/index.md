@@ -9,7 +9,6 @@ categories:
 - Programming
 tags:
 - Reference Tag
-- Technology Tag
 ---
 
 
