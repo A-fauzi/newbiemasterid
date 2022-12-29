@@ -32,19 +32,62 @@ mengembangkan sistem aplikasi secara utuh.
 
 Technology Back-end
 
+1. **MySQL (Basis Data)**
 
+MySQL adalah sistem manajemen basis data relasional (RDBMS) yang populer. RDBMS adalah sistem manajemen basis data yang
+menyimpan data dalam bentuk tabel yang saling terkait dengan menggunakan relasi antar tabel. MySQL merupakan salah satu
+RDBMS yang paling sering digunakan, karena mudah digunakan, cepat, dan bersifat open source (gratis). MySQL dapat
+digunakan untuk mengelola basis data yang berisi berbagai jenis data, seperti data transaksi, data inventori, data
+pelanggan, dan lain-lain. MySQL dapat diintegrasikan dengan berbagai bahasa pemrograman, seperti PHP, Java, dan Python,
+sehingga dapat digunakan dalam pengembangan aplikasi web, sistem informasi, dan lain-lain.
+
+---
+
+2. **Postman (API Testing)**
+
+Postman adalah aplikasi atau alat yang digunakan untuk melakukan tes dan debugging API (Application Programming
+Interface). API adalah sekumpulan fungsi yang disediakan oleh sebuah sistem atau aplikasi untuk dapat diakses dan
+digunakan oleh aplikasi atau sistem lain. Postman memungkinkan pengguna untuk mengirim permintaan HTTP (Hypertext
+Transfer Protocol) ke server dan menerima respons yang dikirim oleh server. Permintaan HTTP dapat berupa GET, POST, PUT,
+DELETE, dan lain-lain. Postman juga memiliki fitur-fitur yang berguna seperti environment variable, collection, testing,
+mock server, dan lain-lain. Postman banyak digunakan oleh developer untuk menguji API sebelum aplikasi atau sistem
+tersebut dipublikasikan.
+
+---
+
+3. **Springboot (Framework)**
+
+Spring Boot adalah framework atau kerangka kerja yang dikembangkan oleh Pivotal untuk memudahkan pengembangan aplikasi
+Java. Spring Boot merupakan bagian dari proyek Spring yang lebih luas, yang memfokuskan pada kemudahan pengembangan
+aplikasi Java dengan menyediakan beragam fitur dan konfigurasi yang telah terotomatisasi. Spring Boot menyediakan cara
+mudah untuk membuat aplikasi Java yang independen, yang dapat dijalankan langsung dari command line atau dari sebuah web
+container seperti Apache Tomcat. Spring Boot juga menyediakan cara untuk mengkonfigurasi dan mengelola dependensi
+aplikasi dengan menggunakan Maven atau Gradle. Spring Boot sangat populer karena memudahkan pengembangan aplikasi Java
+dengan mengurangi konfigurasi yang diperlukan dan memberikan akses ke fitur-fitur yang berguna dari Spring Framework.
+
+---
+
+4. **Java (Bahasa Pemrograman)**
+
+Java adalah bahasa pemrograman yang dikembangkan oleh Sun Microsystems (sekarang Oracle) pada tahun 1995. Java merupakan
+bahasa pemrograman yang bersifat general-purpose, artinya bahasa ini dapat digunakan untuk membuat berbagai macam
+aplikasi, seperti aplikasi desktop, aplikasi web, sistem operasi, dan lain-lain. Java mengadopsi sintaksis dari bahasa
+C++, namun memiliki tipe data yang lebih sederhana dan menggunakan garbage collection untuk mengelola memori secara
+otomatis. Java juga memiliki fitur-fitur seperti keamanan, portabilitas, dan multithreading, yang membuatnya sangat
+cocok untuk pengembangan aplikasi yang dapat dijalankan di berbagai sistem operasi. Java juga merupakan bahasa
+pemrograman yang paling populer di dunia, dan banyak digunakan oleh perusahaan-perusahaan besar di berbagai industri.
+
+---
 
 Technology Front-end
 
 1. **HTML**
 
-![HTML](https://img.freepik.com/free-icon/html-5_318-674234.jpg?w=2000)
-
 HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk menentukan struktur dan konten dari sebuah
 halaman web. HTML menggunakan tag-tag yang ditandai dengan tanda kurung siku untuk menandai elemen-elemen yang ada pada
 halaman, seperti judul, paragraf, daftar, dan lain-lain.
 
-```
+```yaml
 <html>
 
 <head>
@@ -85,7 +128,7 @@ masing-masing halaman.
 
 Contoh CSS:
 
-```
+```yaml
 body {
 font-family: Arial, sans-serif;
 color: #333;
@@ -153,8 +196,8 @@ dan saya akan mencoba membantu Anda membuat outline untuk artikel tersebut. Deng
 yang ingin Anda tulis, saya dapat membantu Anda menyusun struktur yang sesuai dan mengembangkan ide-ide Anda menjadi
 sebuah artikel yang menarik dan bermanfaat bagi pembaca.
 
-Info lebih lanjut tentang saya, pantau link github: https://github.com/A-fauzi
-
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
-
+>Info lebih lanjut tentang saya, pantau link github: [my-github]https://github.com/A-fauzi
+>
+>Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+>
 > Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)

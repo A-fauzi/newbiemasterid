@@ -11,7 +11,8 @@ tags:
 - Coding Tag
 ---
 
-Halo sobat ngab!
+
+Halo Ngab!
 
 Memperkenalkan koding pada anak usia dini dapat menjadi cara yang baik untuk membantu anak-anak mengembangkan kemampuan
 berpikir logis dan kritis serta meningkatkan keterampilan mereka di bidang teknologi. Ada beberapa cara yang dapat
@@ -35,8 +36,9 @@ memahami konsep-konsep koding. Jadi, pastikan untuk terus menyemangati dan mendu
 koding mereka.
 
 
-Info lebih lanjut tentang saya, pantau link github: https://github.com/A-fauzi
 
-Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
-
+> Info lebih lanjut tentang saya, pantau link github: [my github](https://github.com/A-fauzi)
+>
+> Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+>
 > Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
