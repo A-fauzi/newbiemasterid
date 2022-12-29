@@ -5,7 +5,6 @@ slug: coding-for-kids
 date: 2022-12-28 00:00:00+0000
 image: coding-for-kids.jpg
 categories:
-- Coding
 - Programming
 tags:
 - Coding Tag
