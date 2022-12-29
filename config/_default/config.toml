@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://newbiemasterid.my.id"
+baseurl = "https://www.newbiemasterid.my.id/"
 languageCode = "en-us"
 paginate = 5
 title = "Newbie Master ID"
