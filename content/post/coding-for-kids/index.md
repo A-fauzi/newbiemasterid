@@ -1,6 +1,6 @@
 ---
 title: Coding For Kids
-description: Memperkenalkan coding pada anak usia dini
+description: Memperkenalkan coding pada anak usia dini mampu mengembangkan kemampuan berpikir logis dan kritis serta meningkatkan keterampilan mereka di bidang teknologi.
 slug: coding-for-kids
 date: 2022-12-28 00:00:00+0000
 image: coding-for-kids.jpg
@@ -11,7 +11,9 @@ tags:
 ---
 
 
-#### Halo Ngab!
+#### Halo Sobat _`NMI`_, ini adalah artikel pertama saya yang akan membahas tentang perkenalan coding untuk anak, semoga kedepan nya dapat mengedukasi temen temen yang baca artikel di _`NMI`_ 👍
+
+#### Go Reading!! 🚀
 
 #### Memperkenalkan koding pada anak usia dini dapat menjadi cara yang baik untuk membantu anak-anak mengembangkan kemampuan berpikir logis dan kritis serta meningkatkan keterampilan mereka di bidang teknologi. Ada beberapa cara yang dapat dilakukan untuk memperkenalkan koding pada anak usia dini, di antaranya:
 
@@ -31,5 +33,3 @@ tags:
 > Info lebih lanjut tentang saya, pantau link github: [my github](https://github.com/A-fauzi)
 >
 > Want a site like this? Check out [hugo-theme-stack-stater](https://github.com/CaiJimmy/hugo-theme-stack-starter)
->
-> Photo by [Pawel Czerwinski](https://unsplash.com/@pawel_czerwinski) on [Unsplash](https://unsplash.com/)
