@@ -10,23 +10,24 @@ tags:
 - Coding Tag
 ---
 
+## Introduction
 
-#### Halo Sobat _`NMI`_, ini adalah artikel pertama saya yang akan membahas tentang perkenalan coding untuk anak, semoga kedepan nya dapat mengedukasi temen temen yang baca artikel di _`NMI`_ 👍
+Halo Sobat _`NMI`_, ini adalah artikel pertama saya yang akan membahas tentang perkenalan coding untuk anak, semoga kedepan nya dapat mengedukasi temen temen yang baca artikel di _`NMI`_ 👍
 
-#### Go Reading!! 🚀
+Go Reading!! 🚀
 
-#### Memperkenalkan koding pada anak usia dini dapat menjadi cara yang baik untuk membantu anak-anak mengembangkan kemampuan berpikir logis dan kritis serta meningkatkan keterampilan mereka di bidang teknologi. Ada beberapa cara yang dapat dilakukan untuk memperkenalkan koding pada anak usia dini, di antaranya:
+Memperkenalkan koding pada anak usia dini dapat menjadi cara yang baik untuk membantu anak-anak mengembangkan kemampuan berpikir logis dan kritis serta meningkatkan keterampilan mereka di bidang teknologi. Ada beberapa cara yang dapat dilakukan untuk memperkenalkan koding pada anak usia dini, di antaranya:
 
-#### Menggunakan aplikasi atau perangkat yang dirancang khusus untuk anak-anak, seperti Scratch Jr. atau Tynker. Aplikasi ini menyediakan alat yang mudah digunakan dan membantu anak-anak mempelajari dasar-dasar koding dengan cara yang menyenangkan.
+Menggunakan aplikasi atau perangkat yang dirancang khusus untuk anak-anak, seperti Scratch Jr. atau Tynker. Aplikasi ini menyediakan alat yang mudah digunakan dan membantu anak-anak mempelajari dasar-dasar koding dengan cara yang menyenangkan.
 
-#### Menggunakan permainan yang mengajarkan prinsip-prinsip dasar koding, seperti permainan Robot Turtles atau Code-a-Pillar. Permainan ini mengajarkan anak-anak tentang konsep seperti perintah, loop, dan pemecahan masalah.
+Menggunakan permainan yang mengajarkan prinsip-prinsip dasar koding, seperti permainan Robot Turtles atau Code-a-Pillar. Permainan ini mengajarkan anak-anak tentang konsep seperti perintah, loop, dan pemecahan masalah.
 
-#### Menggunakan bahan-bahan seperti buku, video, atau aplikasi pembelajaran yang menyediakan konten koding yang disesuaikan dengan tingkat kemampuan anak.
+Menggunakan bahan-bahan seperti buku, video, atau aplikasi pembelajaran yang menyediakan konten koding yang disesuaikan dengan tingkat kemampuan anak.
 
-#### Melakukan kegiatan praktis dengan anak-anak, seperti membuat robot sederhana atau membuat aplikasi sederhana menggunakan aplikasi pemrograman yang mudah digunakan.
+Melakukan kegiatan praktis dengan anak-anak, seperti membuat robot sederhana atau membuat aplikasi sederhana menggunakan aplikasi pemrograman yang mudah digunakan.
 
-#### Penting untuk diingat bahwa anak-anak usia dini masih membutuhkan bimbingan dan dukungan dari orang tua atau guru untuk memahami konsep-konsep koding. Jadi, pastikan untuk terus menyemangati dan mendukung anak-anak dalam proses pembelajaran
-#### koding mereka.
+Penting untuk diingat bahwa anak-anak usia dini masih membutuhkan bimbingan dan dukungan dari orang tua atau guru untuk memahami konsep-konsep koding. Jadi, pastikan untuk terus menyemangati dan mendukung anak-anak dalam proses pembelajaran
+koding mereka.
 
 
 
