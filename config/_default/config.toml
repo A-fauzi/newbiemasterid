@@ -14,3 +14,9 @@ hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
 disqusShortname = "https-newbiemasterid-vercel-app"
+
+
+[taxonomies]
+category = 'categories'
+tutorial = 'tutorials'
+tag = 'tags'

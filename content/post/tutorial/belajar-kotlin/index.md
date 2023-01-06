@@ -4,11 +4,10 @@ description: Kotlin bahasa yang diketik statis dan multi platform
 slug: kotlin
 date: 2023-01-06T12:10:28+07:00
 image: kotlin-tutorial.png
-categories:
-  - Tutorials
-  - Programming
-tags:
+tutorials:
   - Kotlin
+tags:
+  - tutorials
 ---
 
 ## Introduction

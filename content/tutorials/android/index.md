@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: Android
+description: Android Tutorial
 image:
 
 # Badge style
