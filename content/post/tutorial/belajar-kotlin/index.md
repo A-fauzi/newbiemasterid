@@ -5,7 +5,7 @@ slug: kotlin
 date: 2023-01-06T12:10:28+07:00
 image: kotlin-tutorial.png
 tutorials:
-  - Kotlin
+  - Kotlin Tutorials
 tags:
   - tutorials
 ---
