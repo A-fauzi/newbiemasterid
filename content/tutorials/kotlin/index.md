@@ -1,5 +1,5 @@
 ---
-title: Kotlin
+title: Kotlin Tutorials
 description: Kotlin Tutorial
 image: kotlin-tutorial.png
 
