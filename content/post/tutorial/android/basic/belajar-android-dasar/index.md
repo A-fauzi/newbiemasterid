@@ -142,6 +142,201 @@ Ini adalah tampilan standar dan susunan file yang Kalian gunain. Ini akan bergun
 
 ### Memperbarui Text
 
----
+Setelah mengenal Android Studio, nah sekarang waktunya mulai membuat aplikasinya 😍
+
+Lihat tampilan Code file MainActivity.kt. Perhatiin bahwa ada beberapa fungsi yang dihasilkan secara otomatis dalam kode ini, khususnya fungsi onCreate() dan setContent().
+
+```kotlin
+class MainActivity : ComponentActivity() {
+   override fun onCreate(savedInstanceState: Bundle?) {
+       super.onCreate(savedInstanceState)
+       setContent {
+           GreetingCardTheme {
+               // A surface container using the 'background' color from the theme
+               Surface(
+                   modifier = Modifier.fillMaxSize(),
+                   color = MaterialTheme.colors.background
+               ) {
+                   Greeting("Android")
+               }
+           }
+       }
+   }
+}
+```
+
+Sekarang mimin bakal jelasin fungsi fungsi kode di atas:
+
+Fungsi onCreate() adalah titik entri ke aplikasi ini dan memanggil fungsi lain untuk membuat antarmuka pengguna. Dalam program Kotlin, fungsi main() adalah tempat spesifik dalam kode Kalian tempat compiler Kotlin dimulai. Di aplikasi Android, fungsi onCreate() mengisi peran tersebut.
+Jadi layak nya fungsi main() yang ada di kotlin untuk menjalankan program, di android menggunakan fungsi onCeate().
+
+Fungsi setContent() dalam fungsi onCreate() digunakan untuk menentukan tata letak yang kalian buat melalui fungsi composable. Semua fungsi yang ditandai dengan anotasi @Composable dapat dipanggil dari fungsi setContent() atau dari fungsi Composable lainnya. Anotasi ini memberi tahu compiler Kotlin bahwa fungsi ini digunakan oleh Jetpack Compose untuk membuat UI.
+
+> Catatan: Compiler mengambil kode Kotlin yang Kalian tulis, melihatnya baris demi baris, dan menerjemahkannya menjadi sesuatu yang dapat dipahami komputer. Proses ini disebut mengompilasi kode.
+
+Selanjutnya, coba kalian lihat fungsi Greeting(). Fungsi Greeting() adalah fungsi composable. Perhatiin anotasi @Composable di atasnya. Fungsi composable mengambil beberapa input dan menghasilkan apa yang ditampilkan di layar.
+
+```kotlin
+@Composable
+fun Greeting(name: String) {
+   Text(text = "Hello $name!")
+}
+```
+
+Kalian udah belajar fungsi sebelumnya di halaman [belajar kotlin](), kalo kalian belum mempelajari nya silahkan kunjungi halaman tersebut dan pelajari untuk memudahkan kalian belajar android.
+
+![img](img/fungsi-composable.png)
+
+- Nama fungsi @Composable menggunakan PascalCase.
+- Harus menambahkan anotasi @Composable sebelum fungsi.
+- Fungsi @Composable tidak dapat menampilkan apa pun.
+
+```kotlin
+@Composable
+fun Greeting(name: String) {
+   Text(text = "Hello $name!")
+}
+```
+
+Sekarang kalian perhatiin, fungsi Greeting() menggunakan nama dan menampilkan Hello.
+
+1. Sekarang ubah fungsi Greeting() untuk memperkenalkan diri Kalian, Jangan menggunakan "Hello" kaya contoh kode dibawah:
+
+```kotlin
+@Composable
+fun Greeting(name: String) {
+   Text(text = "Hi, my name is $name!")
+}
+```
+
+2. Build ulang DefaultPreview dengan menekan tombol di kiri atas panel desain
+
+![img](img/build-preview.png)
+
+Nah sekarang kalian berhasil mengubah teks, tapi text disini di set nama sebagai Android yang pasti bukan nama Kalian. Sekarang, Kalian akan mempersonalisasinya agar memperkenalkan nama kalian sendiri.
+
+Fungsi `DefaultPreview()` adalah fitur keren yang memungkinkan kalian melihat tampilan aplikasi tanpa harus mem-build seluruh aplikasi. Agar menjadi fungsi Pratinjau, kalian perlu menambahkan anotasi `@Preview`.
+
+Seperti yang udah kalian lihat nih, anotasi `@Preview` menggunakan parameter yang disebut `showBackground`. Jika `showBackground` disetel ke true, latar belakang akan ditambahkan ke pratinjau aplikasi kalian.
+
+Android Studio secara default menggunakan tema terang untuk editor sehingga perbedaan antara `showBackground` = true dan `showBackground` = false mungkin bakal sulit dilihat. Tapi, inilah perbedaan tampilan dengan tema gelap. Perhatiin latar belakang putih pada gambar yang disetel ke true.
+
+![img](img/preview-background.png)
+
+2. Sekarang ubah fungsi DefaultPreview() dengan nama Kalian. Kemudian, build ulang dan lihat text yang dipersonalisasi.
+
+```kotlin
+@Preview(showBackground = true)
+@Composable
+fun DefaultPreview() {
+   GreetingCardTheme {
+       Greeting("Akhmad Fauzi")
+   }
+}
+```
+
+![img](img/build-view.png)
+
+### Mengubah warna latar belakang
+
+Sekarang Kalian punya teks pengantar, tapi hal ini bikin bosen karna ga ada style apa apa. Di bagian ini, Kalian bakal mempelajari cara mengubah warna latar belakang.
+
+Untuk menetapkan warna latar belakang yang berbeda pada pendahuluan, Kalian harus mengapit teks dengan Surface. Surface adalah penampung yang menampilkan bagian UI tempat Kalian dapat mengubah tampilan, seperti warna latar belakang atau batas.
+
+1. Untuk mengapit teks dengan Surface, tandai baris teks, tekan (Alt+Enter untuk Windows atau Option+Enter di Mac), lalu pilih Surround with widget.
+
+![img](img/img-1.png)
+
+2. Pilih Surround with Container.
+
+![img](img/img-2.png)
+
+Penampung default yang bakal dikasih ke Kalian adalah Box, tapi Kalian dapat mengubahnya ke jenis penampung lainnya.
+
+![img](img/img-3.png)
+
+3. Hapus `Box` dan ketik `Surface()` sebagai gantinya.
+
+```kotlin
+@Composable
+fun Greeting(name: String) {
+   Surface() {
+       Text(text = "Hi, my name is $name!")
+   }
+}
+```
+
+4. Penampung Surface memiliki parameter color, tetapkan ke Color.
+
+```kotlin
+@Composable
+fun Greeting(name: String) {
+   Surface(color = Color) {
+       Text(text = "Hi, my name is $name!")
+   }
+}
+```
+
+5. Saat mengetik Color, Kalian pasti melihat warnanya merah dan digaris bawahi. Untuk mengatasi hal ini, scroll ke bagian atas file yang bertuliskan import, lalu tekan ketiga tombol.
+
+![img](img/import.png)
+
+6. Tambahin pernyataan ini ke bagian bawah daftar impor.
+
+```kotlin
+import androidx.compose.ui.graphics.Color
+```
+
+Daftar lengkap impor bakal keliatan kaya gini:
+
+```kotlin
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
+import com.example.myapplication.ui.theme.GreetingCard
+import androidx.compose.ui.graphics.Color
+```
+
+7. Didalam kode Kalian, praktik terbaiknya adalah dengan tetap mencantumkan impor menurut abjad. Untuk ngelakuin nya, tekan `Help` di `toolbar` bagian atas, ketik `Optimize Imports`, lalu klik `Optimize Imports`.
+
+Sekarang daftar lengkap impor bakal keliatan kaya gini:
+
+```kotlin
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
+import com.example.myapplication.ui.theme.GreetingCard
+```
+
+8. Perhatiin Color yang Kalian ketik di tanda kurung Surface udah berubah dari warna merah dan digaris bawahi menjadi digaris bawahi warna merah. Untuk memperbaikinya, tambahkan titik setelahnya. Kalian bakal lihat pop-up yang menampilkan berbagai opsi warna.
+
+Ini adalah salah satu fitur keren di Android Studio, Dalam hal ini, Kalian tahu bahwa Kalian mau nentuin warna sehingga fitur ini akan menyarankan warna yang berbeda.
+
+![img](img/color.png)
+
+9. Pilih warna untuk background text Kalian. disini mimin menggunakan magenta, tapi Kalian bisa pilih color favorit Kalian.
+
+10. Klik Build & Refresh. Sekarang teks dikelilingi oleh warna yang Kalian pilih.
+
+![img](img/finish.png)
+
+### Menambahkan padding
+
+Waiting write...
 
 # Dasar dasar android
