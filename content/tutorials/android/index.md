@@ -1,7 +1,7 @@
 ---
 title: Android Tutorials
 description: Android Tutorial
-image:
+image: tutorial-android.png
 
 # Badge style
 style:
