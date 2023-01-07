@@ -2,7 +2,7 @@
 title: "Belajar Android Dasar"
 description: Pengenalan android dan cara menginstall android studio
 date: 2023-01-07
-image: android-basic.jpg
+image: android-basic.png
 tutorials:
   - Android
 tags:
@@ -141,7 +141,6 @@ Ini adalah tampilan standar dan susunan file yang Kalian gunain. Ini akan bergun
 4. Pilih Android lagi untuk beralih kembali ke tampilan sebelumnya. Kalian dapat menggunakan tampilan Android untuk latihan ini. Jika struktur file Kalian terlihat aneh, periksa untuk memastikan Kalian masih dalam tampilan Android.
 
 ### Memperbarui Text
-
 
 ---
 
