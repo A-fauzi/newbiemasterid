@@ -337,6 +337,6 @@ Ini adalah salah satu fitur keren di Android Studio, Dalam hal ini, Kalian tahu 
 
 ### Menambahkan padding
 
-Waiting write...
+Waiting write..
 
 # Dasar dasar android
