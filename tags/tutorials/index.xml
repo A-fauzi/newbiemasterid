@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tutorials on Newbie Master ID</title><link>https://www.newbiemasterid.my.id/tags/tutorials/</link><description>Recent content in tutorials on Newbie Master ID</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 07 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.newbiemasterid.my.id/tags/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Belajar Android Dasar</title><link>https://www.newbiemasterid.my.id/article/belajar-android-dasar/</link><pubDate>Sat, 07 Jan 2023 00:00:00 +0000</pubDate><guid>https://www.newbiemasterid.my.id/article/belajar-android-dasar/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/belajar-android-dasar/android-basic.png" alt="Featured image of post Belajar Android Dasar" />&lt;h1 id="introduction">Introduction&lt;/h1>
+&lt;p>Halo sahabat &lt;strong>&lt;em>NMI&lt;/em>&lt;/strong>, ketemu lagi nih sama mimin hehe&lt;/p>
+&lt;p>Ini waktu yang ditunggu nih, kali ini mimin bakal ngajarin cara buat aplikasi android menggunakan &lt;strong>Kotlin&lt;/strong>.&lt;/p>
+&lt;p>Gausah lama lama ya langsung aja gass 🚀&lt;/p>
+&lt;h2 id="panduan-developer">Panduan Developer&lt;/h2>
+&lt;p>Artikel ini ngabahas cara mem-build aplikasi Android menggunakan API di framework Android dan library lainnya.&lt;/p>
+&lt;p>Kalo Kalian baru mengenal Android dan mau langsung nulis kode, kalian bisa kunjungi ke bagian tutorial &lt;a class="link" href="" >Build Aplikasi Pertama Kamu&lt;/a>.&lt;/p>
+&lt;p>Kalian juga bisa lihat referensi lainnya yang udah di sediain sama Google untuk mempelajari pengembangan Android kunjungi berikut:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="" >Codelab&lt;/a>: Tutorial singkat mandiri yang masing-masing membahas topik tersendiri. Sebagian besar codelab memandu Kalian dalam proses mem-build aplikasi kecil, atau menambahkan fitur baru ke aplikasi yang ada.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="" >Kursus&lt;/a>: Jalur pelatihan dengan panduan yang mengajarkan cara mem-build aplikasi Android.
+Jika tidak, berikut ini adalah beberapa pilihan panduan developer penting yang harus Kalian ketahui.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="dokumentasi-penting">Dokumentasi Penting&lt;/h3>
+&lt;p>Ada banyak banget dokumentasi yang udah di sediain Android Developer, berikut contoh nya:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Menentukan kebutuhan akses data sensitif&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Panduan performa aplikasi&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Ringkasan resource aplikasi&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Ringkasan Notifikasi&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Tata letak&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Gaya dan Tema&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>DLL&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Karna banyak banget dokumentasi resmi, jadi mimin cuma melampirkan beberapa nya saja. 😀&lt;/p>
+&lt;hr>
+&lt;h1 id="buat-aplikasi-pertama-kamu">Buat Aplikasi Pertama Kamu&lt;/h1>
+&lt;h2 id="membuat-aplikasi-hello-newbie-master-id">Membuat Aplikasi Hello Newbie Master ID&lt;/h2>
+&lt;h3 id="sebelum-mulai">Sebelum mulai&lt;/h3>
+&lt;p>&lt;a class="link" href="" >Instal Android Studio&lt;/a> dulu di komputer kalian kalo kalian belum menginstall. Pastiin komputer kalian memenuhi persyaratan sistem yang diperlukan untuk menjalankan Android Studio (ada di bagian bawah halaman download) di dokumentasi resmi nya. kalo kalian memerlukan petunjuk yang lebih detail terkait proses installasi dan penyiapan, Kalian bisa kunjungi ke bagian &lt;a class="link" href="" >Install Android Studio&lt;/a>.&lt;/p>
+&lt;p>Di halaman belajar adroid dasar ini, Kalian akan membuat aplikasi Android pertama dengan template project yang disediakan oleh Android Studio. Kalian menggunakan Kotlin dan Jetpack Compose untuk menyesuaikan aplikasi Kalian. Perhatikan bahwa Android Studio selalu diupdate dan terkadang ada perubahan UI, jadi gak masalah kalo Android Studio Kalian terlihat sedikit berbeda dari screenshot yang ada di artikel ini. Kebetulan mimin pake &lt;em>&lt;strong>Android Studio Chipmunk | 2021.2.1 Patch 2&lt;/strong>&lt;/em>&lt;/p>
+&lt;h4 id="persyaratan">Persyaratan&lt;/h4>
+&lt;ul>
+&lt;li>Pengetahuan kotlin dasar&lt;/li>
+&lt;/ul>
+&lt;p>Kalo kalian belum belajar kotlin, kalian bisa kunjungi dulu ke bagian halaman tutoral &lt;a class="link" href="" >Belajar Kotlin&lt;/a> sebelum melanjutkan ke tahap selanjutnya, kalian harus paham dulu tentang kotlin.&lt;/p>
+&lt;h4 id="yang-dibutuhin">Yang dibutuhin&lt;/h4>
+&lt;ul>
+&lt;li>Versi terbaru android studio&lt;/li>
+&lt;/ul>
+&lt;h4 id="yang-akan-dipelajari">Yang akan dipelajari&lt;/h4>
+&lt;ul>
+&lt;li>Cara membuat aplikasi Android dengan Android Studio&lt;/li>
+&lt;li>Cara menjalankan aplikasi dengan alat Pratinjau di Android Studio&lt;/li>
+&lt;li>Cara mengubah text dengan Kotlin&lt;/li>
+&lt;li>Cara mengupdate User Interface (UI) dengan Jetpack Compose&lt;/li>
+&lt;li>Cara melihat Pratinjau aplikasi dengan Pratinjau di Jetpack Compose&lt;/li>
+&lt;/ul>
+&lt;p>Berikut adalah tampilan akhir aplikasi:&lt;/p>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/default-preview-1.png"
+loading="lazy"
+alt="default preview"
+>&lt;/p>
+&lt;h3 id="membuat-project-menggunakan-template">Membuat project menggunakan template&lt;/h3>
+&lt;p>Untuk membuat project di Android Studio:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Setelah kalian menginstall Android Studio Masuk kedalam aplikasi Android Studio.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Dalam dialog Welcome to Android Studio, klik New Project.
+&lt;img src="https://www.newbiemasterid.my.id/img/Screensho-new-project.png"
+loading="lazy"
+alt="default preview"
+>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Setelah itu Jendela New Project akan terbuka dengan daftar template yang disediakan oleh Android Studio.
+&lt;img src="https://www.newbiemasterid.my.id/img/choose-template.png"
+loading="lazy"
+alt="default preview"
+>&lt;/p>
+&lt;ol start="3">
+&lt;li>
+&lt;p>Pastiin kalo kalian pilih Phone and Jablet pada jenis template&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Karna kita mau menggunakan Jetpack Compose Kalian bisa pilih template Empty Compose Activity untuk memilihnya sebagai template untuk project Kalian. Template Empty Compose Activity adalah template untuk membuat project sederhana yang bisa kalian gunakan untuk membuat aplikasi Compose. Template ini memiliki satu layar dan menampilkan teks &amp;ldquo;Hello Android!&amp;rdquo;.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Klik Next. Dialog New Project akan terbuka. Kolom ini memiliki beberapa kolom untuk mengonfigurasi project Kalian.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Konfigurasikan project Kalian sebagai berikut:&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Kolom &lt;strong>Name&lt;/strong> digunain buat masukin nama project Kalian, untuk jenis project yang saya gunai yaitu &amp;ldquo;Build-First-App&amp;rdquo;.&lt;/p>
+&lt;p>Biarin kolom &lt;strong>Package name&lt;/strong> apa adanya. Ini adalah cara file Kalian bakal disusun dalam struktur file. Dalam hal ini, nama paket bakal menjadi com.example.greetingcard.&lt;/p>
+&lt;p>Biarin kolom &lt;strong>Save location&lt;/strong> sebagaimana adanya. Project ini berisi lokasi tempat semua file yang terkait dengan project Kalian disimpan. Catat lokasi tersebut di komputer agar Kalian dapat menemukan file Kalian.&lt;/p>
+&lt;p>&lt;strong>Kotlin&lt;/strong> sudah dipilih di kolom &lt;strong>Language&lt;/strong>. Bahasa menentukan bahasa pemrograman yang ingin Kalian gunain buat project. Karena Compose hanya kompatibel dengan Kotlin, Kalian tidak dapat mengubah kolom ini.&lt;/p>
+&lt;p>Pilih &lt;strong>API 23: Android 6.0 (Marshmallow)&lt;/strong> dari menu di kolom &lt;strong>Minimum SDK&lt;/strong>. &lt;a class="link" href="" >Minimum SDK&lt;/a> menunjukkan versi minimum Android yang dapat dijalankan oleh aplikasi Kalian.&lt;/p>
+&lt;p>Kotak centang &lt;strong>Use legacy android.support libraries&lt;/strong> sudah tidak dicentang.
+&lt;img src="https://www.newbiemasterid.my.id/img/init-project.png"
+loading="lazy"
+alt="default preview"
+>&lt;/p>
+&lt;ol start="7">
+&lt;li>Tekan Finish. Proses ini mungkin memerlukan waktu lama - sembari menunggu Kalian dapat melakukan aktivitas lain. Ketika Android Studio sedang menyiapkan, status progres dan pesan menunjukkan apakah Android Studio masih menyiapkan project Kalian. Tampilannya mungkin terlihat seperti ini:
+&lt;img src="https://www.newbiemasterid.my.id/img/process-running.png"
+loading="lazy"
+alt="default preview"
+>&lt;/li>
+&lt;/ol>
+&lt;p>Pesan yang terlihat serupa dengan ini akan menginformasikan Kalian saat penyiapan project dibuat.&lt;/p>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/gradle-sync.png"
+loading="lazy"
+alt="default preview"
+>&lt;/p>
+&lt;ol start="8">
+&lt;li>
+&lt;p>Kalian mungkin melihat panel What&amp;rsquo;s New yang berisi informasi terkini tentang fitur-fitur baru di Android Studio. Tutup sekarang.
+&lt;img src="https://www.newbiemasterid.my.id/img/img-8.png"
+loading="lazy"
+alt="default preview"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Klik Split di kanan atas Android Studio, ini memungkinkan Kalian untuk melihat kode dan desain. Kalian juga dapat mengklik Code untuk melihat kode saja atau klik Design untuk melihat desain saja.
+&lt;img src="https://www.newbiemasterid.my.id/img/img-9.png"
+loading="lazy"
+alt="default preview"
+>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="menemukan-file-project">Menemukan file project&lt;/h3>
+&lt;p>Di bagian ini, Kalian akan terus menjelajahi Android Studio dengan lebih memahami struktur file.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Di Android Studio, lihat tab Project. Tab Project menampilkan file dan folder project Kalian. Saat Kalian menyiapkan project, nama paketnya adalah com.example.greetingcard. Kalian dapat melihat paket tersebut di sini, di tab Project. Paket pada dasarnya adalah folder tempat kode berada. Android Studio menyusun project dalam struktur direktori yang terdiri dari paket.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Jika perlu, pilih Android dari menu drop-down di tab Project.
+&lt;img src="https://www.newbiemasterid.my.id/img/img-file-project.png"
+loading="lazy"
+alt="default preview"
+>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Ini adalah tampilan standar dan susunan file yang Kalian gunain. Ini akan berguna saat Kalian menulis kode untuk project karena Kalian bisa dengan mudah mengakses file yang akan Kalian kerjakan di aplikasi. Namun, jika Kalian melihat file di file browser, seperti Finder atau Windows Explorer, hierarki file disusun dengan sangat berbeda.&lt;/p>
+&lt;ol start="3">
+&lt;li>
+&lt;p>Pilih Project Source Files dari menu drop-down. Sekarang Kalian dapat menjelajahi file dengan cara yang sama seperti di file browser apa pun.
+&lt;img src="https://www.newbiemasterid.my.id/img/img-10.png"
+loading="lazy"
+alt="default preview"
+>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Pilih Android lagi untuk beralih kembali ke tampilan sebelumnya. Kalian dapat menggunakan tampilan Android untuk latihan ini. Jika struktur file Kalian terlihat aneh, periksa untuk memastikan Kalian masih dalam tampilan Android.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="memperbarui-text">Memperbarui Text&lt;/h3>
+&lt;p>Setelah mengenal Android Studio, nah sekarang waktunya mulai membuat aplikasinya 😍&lt;/p>
+&lt;p>Lihat tampilan Code file MainActivity.kt. Perhatiin bahwa ada beberapa fungsi yang dihasilkan secara otomatis dalam kode ini, khususnya fungsi onCreate() dan setContent().&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="k">class&lt;/span> &lt;span class="nc">MainActivity&lt;/span> &lt;span class="p">:&lt;/span> &lt;span class="n">ComponentActivity&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">override&lt;/span> &lt;span class="k">fun&lt;/span> &lt;span class="nf">onCreate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">savedInstanceState&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">Bundle&lt;/span>&lt;span class="p">?)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">super&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">onCreate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">savedInstanceState&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">setContent&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GreetingCardTheme&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// A surface container using the &amp;#39;background&amp;#39; color from the theme
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">Surface&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modifier&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nc">Modifier&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">fillMaxSize&lt;/span>&lt;span class="p">(),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nc">MaterialTheme&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">colors&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">background&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Greeting&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Android&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Sekarang mimin bakal jelasin fungsi fungsi kode di atas:&lt;/p>
+&lt;p>Fungsi onCreate() adalah titik entri ke aplikasi ini dan memanggil fungsi lain untuk membuat antarmuka pengguna. Dalam program Kotlin, fungsi main() adalah tempat spesifik dalam kode Kalian tempat compiler Kotlin dimulai. Di aplikasi Android, fungsi onCreate() mengisi peran tersebut.
+Jadi layak nya fungsi main() yang ada di kotlin untuk menjalankan program, di android menggunakan fungsi onCeate().&lt;/p>
+&lt;p>Fungsi setContent() dalam fungsi onCreate() digunakan untuk menentukan tata letak yang kalian buat melalui fungsi composable. Semua fungsi yang ditandai dengan anotasi @Composable dapat dipanggil dari fungsi setContent() atau dari fungsi Composable lainnya. Anotasi ini memberi tahu compiler Kotlin bahwa fungsi ini digunakan oleh Jetpack Compose untuk membuat UI.&lt;/p>
+&lt;blockquote>
+&lt;p>Catatan: Compiler mengambil kode Kotlin yang Kalian tulis, melihatnya baris demi baris, dan menerjemahkannya menjadi sesuatu yang dapat dipahami komputer. Proses ini disebut mengompilasi kode.&lt;/p>
+&lt;/blockquote>
+&lt;p>Selanjutnya, coba kalian lihat fungsi Greeting(). Fungsi Greeting() adalah fungsi composable. Perhatiin anotasi @Composable di atasnya. Fungsi composable mengambil beberapa input dan menghasilkan apa yang ditampilkan di layar.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@Composable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">fun&lt;/span> &lt;span class="nf">Greeting&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">String&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Hello &lt;/span>&lt;span class="si">$name&lt;/span>&lt;span class="s2">!&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Kalian udah belajar fungsi sebelumnya di halaman &lt;a class="link" href="" >belajar kotlin&lt;/a>, kalo kalian belum mempelajari nya silahkan kunjungi halaman tersebut dan pelajari untuk memudahkan kalian belajar android.&lt;/p>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/fungsi-composable.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;ul>
+&lt;li>Nama fungsi @Composable menggunakan PascalCase.&lt;/li>
+&lt;li>Harus menambahkan anotasi @Composable sebelum fungsi.&lt;/li>
+&lt;li>Fungsi @Composable tidak dapat menampilkan apa pun.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@Composable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">fun&lt;/span> &lt;span class="nf">Greeting&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">String&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Hello &lt;/span>&lt;span class="si">$name&lt;/span>&lt;span class="s2">!&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Sekarang kalian perhatiin, fungsi Greeting() menggunakan nama dan menampilkan Hello.&lt;/p>
+&lt;ol>
+&lt;li>Sekarang ubah fungsi Greeting() untuk memperkenalkan diri Kalian, Jangan menggunakan &amp;ldquo;Hello&amp;rdquo; kaya contoh kode dibawah:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@Composable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">fun&lt;/span> &lt;span class="nf">Greeting&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">String&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Hi, my name is &lt;/span>&lt;span class="si">$name&lt;/span>&lt;span class="s2">!&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>Build ulang DefaultPreview dengan menekan tombol di kiri atas panel desain&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/build-preview.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;p>Nah sekarang kalian berhasil mengubah teks, tapi text disini di set nama sebagai Android yang pasti bukan nama Kalian. Sekarang, Kalian akan mempersonalisasinya agar memperkenalkan nama kalian sendiri.&lt;/p>
+&lt;p>Fungsi &lt;code>DefaultPreview()&lt;/code> adalah fitur keren yang memungkinkan kalian melihat tampilan aplikasi tanpa harus mem-build seluruh aplikasi. Agar menjadi fungsi Pratinjau, kalian perlu menambahkan anotasi &lt;code>@Preview&lt;/code>.&lt;/p>
+&lt;p>Seperti yang udah kalian lihat nih, anotasi &lt;code>@Preview&lt;/code> menggunakan parameter yang disebut &lt;code>showBackground&lt;/code>. Jika &lt;code>showBackground&lt;/code> disetel ke true, latar belakang akan ditambahkan ke pratinjau aplikasi kalian.&lt;/p>
+&lt;p>Android Studio secara default menggunakan tema terang untuk editor sehingga perbedaan antara &lt;code>showBackground&lt;/code> = true dan &lt;code>showBackground&lt;/code> = false mungkin bakal sulit dilihat. Tapi, inilah perbedaan tampilan dengan tema gelap. Perhatiin latar belakang putih pada gambar yang disetel ke true.&lt;/p>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/preview-background.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;ol start="2">
+&lt;li>Sekarang ubah fungsi DefaultPreview() dengan nama Kalian. Kemudian, build ulang dan lihat text yang dipersonalisasi.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@Preview&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">showBackground&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="k">true&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@Composable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">fun&lt;/span> &lt;span class="nf">DefaultPreview&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">GreetingCardTheme&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Greeting&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Akhmad Fauzi&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/build-view.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;h3 id="mengubah-warna-latar-belakang">Mengubah warna latar belakang&lt;/h3>
+&lt;p>Sekarang Kalian punya teks pengantar, tapi hal ini bikin bosen karna ga ada style apa apa. Di bagian ini, Kalian bakal mempelajari cara mengubah warna latar belakang.&lt;/p>
+&lt;p>Untuk menetapkan warna latar belakang yang berbeda pada pendahuluan, Kalian harus mengapit teks dengan Surface. Surface adalah penampung yang menampilkan bagian UI tempat Kalian dapat mengubah tampilan, seperti warna latar belakang atau batas.&lt;/p>
+&lt;ol>
+&lt;li>Untuk mengapit teks dengan Surface, tandai baris teks, tekan (Alt+Enter untuk Windows atau Option+Enter di Mac), lalu pilih Surround with widget.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/img-1.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;ol start="2">
+&lt;li>Pilih Surround with Container.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/img-2.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;p>Penampung default yang bakal dikasih ke Kalian adalah Box, tapi Kalian dapat mengubahnya ke jenis penampung lainnya.&lt;/p>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/img-3.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;ol start="3">
+&lt;li>Hapus &lt;code>Box&lt;/code> dan ketik &lt;code>Surface()&lt;/code> sebagai gantinya.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@Composable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">fun&lt;/span> &lt;span class="nf">Greeting&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">String&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Surface&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Hi, my name is &lt;/span>&lt;span class="si">$name&lt;/span>&lt;span class="s2">!&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>Penampung Surface memiliki parameter color, tetapkan ke Color.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@Composable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">fun&lt;/span> &lt;span class="nf">Greeting&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">String&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Surface&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="n">Color&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Hi, my name is &lt;/span>&lt;span class="si">$name&lt;/span>&lt;span class="s2">!&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="5">
+&lt;li>Saat mengetik Color, Kalian pasti melihat warnanya merah dan digaris bawahi. Untuk mengatasi hal ini, scroll ke bagian atas file yang bertuliskan import, lalu tekan ketiga tombol.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/import.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;ol start="6">
+&lt;li>Tambahin pernyataan ini ke bagian bawah daftar impor.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.ui.graphics.Color&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Daftar lengkap impor bakal keliatan kaya gini:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">android.os.Bundle&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.activity.ComponentActivity&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.activity.compose.setContent&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.foundation.layout.fillMaxSize&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.material.MaterialTheme&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.material.Surface&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.material.Text&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.runtime.Composable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.ui.Modifier&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.ui.tooling.preview.Preview&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">com.example.myapplication.ui.theme.GreetingCard&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.ui.graphics.Color&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="7">
+&lt;li>Didalam kode Kalian, praktik terbaiknya adalah dengan tetap mencantumkan impor menurut abjad. Untuk ngelakuin nya, tekan &lt;code>Help&lt;/code> di &lt;code>toolbar&lt;/code> bagian atas, ketik &lt;code>Optimize Imports&lt;/code>, lalu klik &lt;code>Optimize Imports&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;p>Sekarang daftar lengkap impor bakal keliatan kaya gini:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">android.os.Bundle&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.activity.ComponentActivity&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.activity.compose.setContent&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.foundation.layout.fillMaxSize&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.material.MaterialTheme&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.material.Surface&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.material.Text&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.runtime.Composable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.ui.Modifier&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.ui.graphics.Color&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.ui.tooling.preview.Preview&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">com.example.myapplication.ui.theme.GreetingCard&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="8">
+&lt;li>Perhatiin Color yang Kalian ketik di tanda kurung Surface udah berubah dari warna merah dan digaris bawahi menjadi digaris bawahi warna merah. Untuk memperbaikinya, tambahkan titik setelahnya. Kalian bakal lihat pop-up yang menampilkan berbagai opsi warna.&lt;/li>
+&lt;/ol>
+&lt;p>Ini adalah salah satu fitur keren di Android Studio, Dalam hal ini, Kalian tahu bahwa Kalian mau nentuin warna sehingga fitur ini akan menyarankan warna yang berbeda.&lt;/p>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/color.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;ol start="9">
+&lt;li>
+&lt;p>Pilih warna untuk background text Kalian. disini mimin menggunakan magenta, tapi Kalian bisa pilih color favorit Kalian.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Klik Build &amp;amp; Refresh. Sekarang teks dikelilingi oleh warna yang Kalian pilih.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/finish.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;h3 id="menambahkan-padding">Menambahkan padding&lt;/h3>
+&lt;p>Nah sekarang teks Kalian punya warna latar belakang nih, selanjutnya Kalian akan menambahkan beberapa spasi (padding) di sekitar teks.&lt;/p>
+&lt;p>&lt;code>Modifier&lt;/code> digunakan untuk menambah atau menghias komposisi. Satu Pengubah yang dapat Kalian gunakan adalah padding pengubah, yang menerapkan ruang di sekitar elemen (dalam hal ini, menambahkan ruang di sekitar teks). Ini dicapai dengan menggunakan fungsi Modifier.padding().&lt;/p>
+&lt;ol>
+&lt;li>Tambahkan impor ini ke bagian pernyataan impor.
+Pastiin untuk menggunakan Optimalkan Impor untuk mengurutkan impor baru berdasarkan abjad.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.ui.unit.dp&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">import&lt;/span> &lt;span class="nn">androidx.compose.foundation.layout.padding&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>Tambahkan pengubah padding pada teks dengan ukuran 24.dp, klik Build &amp;amp; Refresh.&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>Catatan: Anda mempelajari lebih lanjut tentang kepadatan-independen piksel (DP) di jalur berikutnya, tetapi merujuk ke artikel ini jika Anda ingin membaca lebih lanjut sekarang.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-kotlin" data-lang="kotlin">&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@Composable&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">fun&lt;/span> &lt;span class="nf">Greeting&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">name&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">String&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Surface&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">color&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nc">Color&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">Magenta&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">Text&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">text&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Hi, my name is &lt;/span>&lt;span class="si">$name&lt;/span>&lt;span class="s2">!&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">modifier&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="nc">Modifier&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="n">padding&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">24.&lt;/span>&lt;span class="n">dp&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://www.newbiemasterid.my.id/img/padding.png"
+loading="lazy"
+alt="img"
+>&lt;/p>
+&lt;p>Mantap👏 - Kalian udah buat aplikasi Android pertama di Compose! Ini adalah pencapaian yang bagus. Kalian bisa latihan dan coba coba praktekin apa yang udah kita pelajari.&lt;/p>
+&lt;p>Semangat💪&lt;/p>
+&lt;p>Setelah ini kalian bisa masuk ke artikel berikut nya untuk mempelajari &lt;a class="link" href="" >Dasar dasar android&lt;/a>&lt;/p></description></item><item><title>Belajar Kotlin, Apa itu kotlin?</title><link>https://www.newbiemasterid.my.id/article/kotlin/</link><pubDate>Fri, 06 Jan 2023 12:10:28 +0700</pubDate><guid>https://www.newbiemasterid.my.id/article/kotlin/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/kotlin/kotlin-tutorial.png" alt="Featured image of post Belajar Kotlin, Apa itu kotlin?" />&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Kotlin adalah bahasa pemrograman yang dikembangkan oleh JetBrains yang bertujuan untuk menjadi bahasa pemrograman yang lebih modern dan fleksibel daripada Java. Kotlin dapat dijalankan di atas &lt;code>Java Virtual Machine (JVM)&lt;/code> dan juga dapat dikompilasi menjadi kode JavaScript. Hal ini membuat Kotlin dapat digunakan untuk membuat aplikasi yang berjalan di platform berbeda, seperti aplikasi Android, aplikasi web, dan aplikasi desktop.&lt;/p>
+&lt;p>Salah satu kelebihan Kotlin adalah sintaks yang lebih sederhana dan ringkas dibandingkan dengan Java. Kotlin juga memiliki fitur-fitur yang memudahkan pengembangan aplikasi, seperti:&lt;/p>
+&lt;p>&lt;code>Null safety&lt;/code>: Kotlin memiliki mekanisme null safety yang membuat programmer harus secara eksplisit menandai variabel yang mungkin bernilai null sehingga menghindari terjadinya null pointer exception.&lt;/p>
+&lt;p>&lt;code>Lambdas&lt;/code>: Kotlin mendukung lambdas atau anonymous functions yang memudahkan programmer dalam menulis kode yang lebih terstruktur dan tersusun.&lt;/p>
+&lt;p>&lt;code>Extension functions&lt;/code>: Kotlin mendukung extension functions yang memungkinkan programmer untuk menambahkan fungsi baru pada kelas tanpa harus meng-override kelas tersebut.&lt;/p>
+&lt;p>Kotlin juga memiliki beberapa fitur lain yang membuatnya menjadi bahasa pemrograman yang powerfull, seperti data &lt;code>classes&lt;/code>, &lt;code>type inference&lt;/code>, &lt;code>higher-order&lt;/code> &lt;code>functions&lt;/code>, dan lainnya.&lt;/p>
+&lt;blockquote>
+&lt;p>Info lebih lanjut tentang saya, pantau link github: &lt;a class="link" href="https://github.com/A-fauzi" target="_blank" rel="noopener"
+>my-gihub&lt;/a>&lt;/p>
+&lt;p>Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

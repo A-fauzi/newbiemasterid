@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Newbie Master ID</title><link>https://www.newbiemasterid.my.id/categories/programming/</link><description>Recent content in Programming on Newbie Master ID</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Jan 2023 11:58:50 +0700</lastBuildDate><atom:link href="https://www.newbiemasterid.my.id/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Mengenal Mysql untuk database management aplikasi</title><link>https://www.newbiemasterid.my.id/article/about-mysql/</link><pubDate>Tue, 03 Jan 2023 11:58:50 +0700</pubDate><guid>https://www.newbiemasterid.my.id/article/about-mysql/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/about-mysql/mysql.jpg" alt="Featured image of post Mengenal Mysql untuk database management aplikasi" />&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>MySQL adalah sistem manajemen basis data relasional (&lt;code>RDBMS&lt;/code>) yang populer. Ini adalah perangkat lunak yang digunakan untuk mengelola basis data, yang terdiri dari data yang terstruktur dalam tabel-tabel yang terkait satu sama lain melalui relasi. MySQL juga merupakan salah satu bagian dari &lt;code>LAMP&lt;/code> stack (&lt;code>Linux&lt;/code>, &lt;code>Apache&lt;/code>, &lt;code>MySQL&lt;/code>, &lt;code>PHP&lt;/code> / &lt;code>Perl&lt;/code> / &lt;code>Python&lt;/code>), yang merupakan platform yang sering digunakan untuk mengembangkan aplikasi web.&lt;/p>
+&lt;p>MySQL menyediakan banyak fitur yang berguna, seperti:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Query yang kuat: MySQL menyediakan bahasa query yang kuat yang memungkinkan pengguna untuk mengambil data dari basis data dengan mudah.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Kinerja yang baik: MySQL sangat cepat dan efisien dalam mengelola data, yang membuatnya cocok untuk aplikasi web yang membutuhkan akses yang cepat ke data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fleksibilitas: MySQL dapat digunakan pada berbagai platform, seperti Linux, Windows, dan Mac, dan dapat diintegrasikan dengan banyak bahasa pemrograman, seperti PHP, Perl, dan Python.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Skalabilitas: MySQL dapat menangani basis data yang sangat besar dengan mudah dan memungkinkan pengguna untuk menambahkan hardware tambahan untuk meningkatkan kinerja.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Dukungan: MySQL didukung oleh sebuah komunitas yang aktif yang dapat memberikan bantuan dan solusi untuk masalah yang mungkin terjadi.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>MySQL adalah pilihan yang populer untuk mengelola basis data untuk aplikasi web, meskipun ada juga sistem manajemen basis data lain yang tersedia.&lt;/p>
+&lt;blockquote>
+&lt;p>Info lebih lanjut tentang saya, pantau link github: &lt;a class="link" href="https://github.com/A-fauzi" target="_blank" rel="noopener"
+>my github&lt;/a>&lt;/p>
+&lt;p>Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Mengenal Framework Laravel, Framework Sejuta Umat.</title><link>https://www.newbiemasterid.my.id/article/mengenal-framework-laravel/</link><pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.newbiemasterid.my.id/article/mengenal-framework-laravel/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/mengenal-framework-laravel/laravel.jpg" alt="Featured image of post Mengenal Framework Laravel, Framework Sejuta Umat." />&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Halo sobat ngab! Disini gue bakal jelas apa itu Laravel, Framework sejuta umat wkwk. Checkidot&amp;hellip;&lt;/p>
+&lt;p>Laravel adalah sebuah &lt;code>framework PHP&lt;/code> yang dibuat untuk membantu pengembangan aplikasi web. Framework ini menyediakan sejumlah fitur yang memudahkan para developer dalam membangun aplikasi web, seperti sistem &lt;code>routing&lt;/code>, &lt;code>autentikasi&lt;/code>, &lt;code>manajemen database&lt;/code>, dan lain-lain. Laravel juga menggunakan konsep &lt;code>Model-View-Controller (MVC)&lt;/code> yang membantu memisahkan logika bisnis dari tampilan aplikasi.&lt;/p>
+&lt;p>Salah satu kelebihan dari Laravel adalah kemudahan dalam instalasi dan pengaturan. Laravel menyediakan &lt;code>Command Line Interface (CLI)&lt;/code> yang memudahkan para developer dalam membuat aplikasi, mengelola database, dan melakukan tugas-tugas lainnya. Selain itu, Laravel juga memiliki dokumentasi yang sangat detail dan terpercaya, sehingga memudahkan para developer dalam mempelajari cara menggunakan framework ini.&lt;/p>
+&lt;p>Laravel juga memiliki banyak komunitas yang aktif dan tersebar di seluruh dunia. Mereka saling berbagi pengetahuan dan membantu para developer yang baru mempelajari Laravel. Dengan demikian, Laravel sangat cocok untuk para developer yang ingin membangun aplikasi web dengan cepat dan mudah.&lt;/p>
+&lt;blockquote>
+&lt;p>Info lebih lanjut tentang saya, pantau link github: &lt;a class="link" href="https://github.com/A-fauzi" target="_blank" rel="noopener"
+>my github&lt;/a>&lt;/p>
+&lt;p>Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Mengenal Jetpack Compose, Trobosan baru untuk pemrograman android</title><link>https://www.newbiemasterid.my.id/article/jetpack-compose/</link><pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.newbiemasterid.my.id/article/jetpack-compose/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/jetpack-compose/jetpack-compose.png" alt="Featured image of post Mengenal Jetpack Compose, Trobosan baru untuk pemrograman android" />&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Halo ngab, kali ini gue bakal sharing tentang &lt;strong>Jetpack Compose&lt;/strong>&lt;/p>
+&lt;p>Jetpack Compose adalah sebuah framework yang dikembangkan oleh &lt;code>Google&lt;/code> yang bertujuan untuk memudahkan pengembangan &lt;code>aplikasi Android&lt;/code> dengan menggunakan paradigma &lt;code>declarative programming&lt;/code>. Ini berarti bahwa Anda dapat menggunakan Jetpack Compose untuk mendefinisikan tampilan aplikasi Anda dengan menggunakan kode yang menggambarkan apa yang seharusnya ditampilkan, bukan bagaimana tampilan tersebut harus dibuat.&lt;/p>
+&lt;p>Jetpack Compose menggunakan bahasa &lt;code>Kotlin&lt;/code> sebagai bahasa pemrogramannya dan menyediakan sekumpulan komponen yang dapat Anda gunakan untuk membangun tampilan aplikasi Anda. Komponen-komponen tersebut disebut Composable functions, yang merupakan fungsi Kotlin yang ditandai dengan @Composable annotation. Anda dapat menggunakan Composable functions untuk mendefinisikan bagian-bagian dari tampilan aplikasi Anda, seperti tombol, teks, dan gambar.&lt;/p>
+&lt;p>Selain itu, Jetpack Compose juga menyediakan sekumpulan tools yang dapat membantu Anda dalam mengembangkan aplikasi Android, seperti Composer, yang membantu Anda menyusun Composable functions menjadi tampilan yang sesuai dengan keinginan Anda, dan Inspector, yang memungkinkan Anda untuk melihat bagaimana tampilan aplikasi Anda akan terlihat di perangkat sebelum Anda menjalankannya.&lt;/p>
+&lt;p>Jetpack Compose dianggap sebagai pengembangan yang sangat menjanjikan dalam pengembangan aplikasi Android karena memungkinkan pengembang untuk dengan lebih mudah menciptakan tampilan yang responsif, modern, dan mudah dibaca dengan menggunakan kode yang lebih sederhana dan terstruktur. Selain itu, Jetpack Compose juga memungkinkan pengembang untuk dengan lebih mudah membuat aplikasi yang konsisten dengan menggunakan komponen yang telah ditetapkan oleh Google, sehingga memudahkan proses pengembangan dan pengujian aplikasi.&lt;/p>
+&lt;blockquote>
+&lt;p>Info lebih lanjut tentang saya, pantau link github: &lt;a class="link" href="https://github.com/A-fauzi" target="_blank" rel="noopener"
+>my github&lt;/a>&lt;/p>
+&lt;p>Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a>&lt;/p>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@pawel_czerwinski" target="_blank" rel="noopener"
+>Pawel Czerwinski&lt;/a> on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Android Development</title><link>https://www.newbiemasterid.my.id/article/android-development/</link><pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.newbiemasterid.my.id/article/android-development/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/android-development/android.jpg" alt="Featured image of post Android Development" />&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Halo Ngab!,&lt;/p>
+&lt;p>Pengembangan aplikasi berbasis Android adalah proses membuat aplikasi yang berjalan di perangkat Android. Ini dapat termasuk membuat aplikasi untuk telepon atau tablet, atau aplikasi yang dijalankan di perangkat lain yang menggunakan sistem operasi Android.&lt;/p>
+&lt;p>Untuk memulai pengembangan aplikasi Android, Anda akan perlu mengunduh dan menginstal Android Studio, yang merupakan integrated development environment (IDE) resmi untuk pengembangan aplikasi Android. Selain itu, Anda juga akan perlu memiliki perangkat Android yang akan Anda gunakan sebagai emulator atau perangkat sasaran untuk menguji aplikasi Anda.&lt;/p>
+&lt;p>Setelah menginstal Android Studio dan mempersiapkan perangkat Anda, Anda dapat mulai dengan membuat proyek baru dan mengikuti panduan untuk membuat aplikasi sederhana. Anda akan belajar tentang dasar-dasar pengembangan aplikasi Android, termasuk membuat layout dengan XML, menulis kode Java untuk mengimplementasikan fungsi aplikasi, dan menguji aplikasi Anda di emulator atau perangkat sasaran.&lt;/p>
+&lt;p>Selain itu, Anda juga akan perlu mempelajari tentang fitur-fitur Android yang tersedia, seperti penggunaan sensor, integrasi dengan layanan web, dan lain-lain, sesuai dengan kebutuhan aplikasi yang Anda buat.&lt;/p>
+&lt;p>Pengembangan aplikasi Android dapat menjadi proyek yang menyenangkan dan menantang, dan merupakan cara yang baik untuk mempelajari teknologi mobile dan membuat aplikasi yang bermanfaat bagi pengguna.&lt;/p>
+&lt;blockquote>
+&lt;p>Info lebih lanjut tentang saya, pantau link github: &lt;a class="link" href="https://github.com/A-fauzi" target="_blank" rel="noopener"
+>my-gihub&lt;/a>&lt;/p>
+&lt;p>Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Beberapa referensi teknologi untuk dipelajari</title><link>https://www.newbiemasterid.my.id/article/referensi-teknologi/</link><pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.newbiemasterid.my.id/article/referensi-teknologi/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/referensi-teknologi/reference.jpg" alt="Featured image of post Beberapa referensi teknologi untuk dipelajari" />&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Halo Ngab!,&lt;/p>
+&lt;p>Kali ini gue bakal bagiin beberapa referensi teknologi buat ngembangin sistem aplikasi nih, ini sih cocok banget buat kalian yang baru mau belajar tapi bingung nentuin arah tujuan &amp;ldquo;labil ya hehe&amp;rdquo;. 😁&lt;/p>
+&lt;p>Nah.. dalam pengembangan sistem aplikasi itu sebenernya ada dua role yang mengerjakan, yang pertama ada yang nama nya, &amp;ldquo;&lt;code>Front-end&lt;/code>&amp;rdquo;. Dia ini yang bertanggung jawab untuk mengembangkan aplikasi secara tampilan bagian depan, seperti tombol, card view, animation, dan widget lainya sehingga role ini dituntut dapat mengembangkan aplikasi secantik mungkin :)&lt;/p>
+&lt;p>yang kedua ada yang nama nya, &amp;ldquo;&lt;code>Back-end&lt;/code>&amp;rdquo;. Nah untuk role yang satu ini gak kalah penting dalam pengembangan sistem aplikasi karna dia yang akan sediain berbagai macam data untuk nanti di olah dan di kelola oleh &amp;ldquo;&lt;code>Front-end&lt;/code>&amp;rdquo;.&lt;/p>
+&lt;p>Langsung aja gue bakal kasih kalian referensi teknologi yang di pake di kedua role tersebut, agar nanti nya dapat mengembangkan sistem aplikasi secara utuh.&lt;/p>
+&lt;blockquote>
+&lt;h2 id="technology-back-end">Technology Back-end&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>&lt;code>MySQL&lt;/code> (Basis Data)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>MySQL adalah sistem manajemen basis data relasional (RDBMS) yang populer. RDBMS adalah sistem manajemen basis data yang menyimpan data dalam bentuk tabel yang saling terkait dengan menggunakan relasi antar tabel. MySQL merupakan salah satu RDBMS yang paling sering digunakan, karena mudah digunakan, cepat, dan bersifat open source (gratis). MySQL dapat digunakan untuk mengelola basis data yang berisi berbagai jenis data, seperti data transaksi, data inventori, data pelanggan, dan lain-lain. MySQL dapat diintegrasikan dengan berbagai bahasa pemrograman, seperti PHP, Java, dan Python, sehingga dapat digunakan dalam pengembangan aplikasi web, sistem informasi, dan lain-lain.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="2">
+&lt;li>&lt;strong>&lt;code>Postman&lt;/code> (API Testing)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Postman adalah aplikasi atau alat yang digunakan untuk melakukan tes dan debugging API (Application Programming Interface). API adalah sekumpulan fungsi yang disediakan oleh sebuah sistem atau aplikasi untuk dapat diakses dan digunakan oleh aplikasi atau sistem lain. Postman memungkinkan pengguna untuk mengirim permintaan HTTP (Hypertext Transfer Protocol) ke server dan menerima respons yang dikirim oleh server. Permintaan HTTP dapat berupa GET, POST, PUT, DELETE, dan lain-lain. Postman juga memiliki fitur-fitur yang berguna seperti environment variable, collection, testing, mock server, dan lain-lain. Postman banyak digunakan oleh developer untuk menguji API sebelum aplikasi atau sistem tersebut dipublikasikan.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="3">
+&lt;li>&lt;strong>&lt;code>Springboot&lt;/code> (Framework)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Spring Boot adalah framework atau kerangka kerja yang dikembangkan oleh Pivotal untuk memudahkan pengembangan aplikasi Java. Spring Boot merupakan bagian dari proyek Spring yang lebih luas, yang memfokuskan pada kemudahan pengembangan aplikasi Java dengan menyediakan beragam fitur dan konfigurasi yang telah terotomatisasi. Spring Boot menyediakan cara mudah untuk membuat aplikasi Java yang independen, yang dapat dijalankan langsung dari command line atau dari sebuah web container seperti Apache Tomcat. Spring Boot juga menyediakan cara untuk mengkonfigurasi dan mengelola dependensi aplikasi dengan menggunakan Maven atau Gradle. Spring Boot sangat populer karena memudahkan pengembangan aplikasi Java dengan mengurangi konfigurasi yang diperlukan dan memberikan akses ke fitur-fitur yang berguna dari Spring Framework.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="4">
+&lt;li>&lt;strong>&lt;code>Java&lt;/code> (Bahasa Pemrograman)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Java adalah bahasa pemrograman yang dikembangkan oleh Sun Microsystems (sekarang Oracle) pada tahun 1995. Java merupakan bahasa pemrograman yang bersifat general-purpose, artinya bahasa ini dapat digunakan untuk membuat berbagai macam aplikasi, seperti aplikasi desktop, aplikasi web, sistem operasi, dan lain-lain. Java mengadopsi sintaksis dari bahasa C++, namun memiliki tipe data yang lebih sederhana dan menggunakan garbage collection untuk mengelola memori secara otomatis. Java juga memiliki fitur-fitur seperti keamanan, portabilitas, dan multithreading, yang membuatnya sangat cocok untuk pengembangan aplikasi yang dapat dijalankan di berbagai sistem operasi. Java juga merupakan bahasa pemrograman yang paling populer di dunia, dan banyak digunakan oleh perusahaan-perusahaan besar di berbagai industri.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;h2 id="technology-front-end">Technology Front-end&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>&lt;code>HTML&lt;/code>&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk menentukan struktur dan konten dari sebuahhalaman web. HTML menggunakan tag-tag yang ditandai dengan tanda kurung siku untuk menandai elemen-elemen yang ada pada halaman, seperti judul, paragraf, daftar, dan lain-lain.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>My Website&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Welcome to my website&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>This is a paragraph on my website&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Home&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>About&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Contact&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>Di atas adalah contoh sederhana dari sebuah halaman web yang ditulis dengan HTML. Halaman tersebut &amp;gt; memiliki judul &amp;ldquo;My
+Website&amp;rdquo;, dan terdiri dari sebuah judul utama (&amp;ldquo;Welcome to my website&amp;rdquo;) dan sebuah paragraf. Di bawahnya, terdapat
+sebuah daftar dengan tiga item.&lt;/p>
+&lt;p>HTML merupakan bagian dasar dari pengembangan web, dan sangat penting untuk dipahami oleh front-end developer atau siapa saja yang tertarik untuk membuat atau mengelola website.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="2">
+&lt;li>&lt;strong>&lt;code>CSS&lt;/code>&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mengontrol tampilan dan nuansa dari sebuah halaman web. Dengan CSS, Anda dapat mengatur aspek-aspek seperti warna, font, margin, dan layout dari elemen-elemen pada halaman web.&lt;/p>
+&lt;p>CSS ditulis dalam file terpisah dari HTML, dan kemudian di-include pada halaman web menggunakan tag&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Contoh CSS:&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">Arial&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kc">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#333&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#fff&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">margin&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">padding&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">h1&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">margin-bottom&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mf">0.5&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#069&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">p&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">line-height&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mf">1.5&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">margin-bottom&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>Di atas adalah contoh sederhana dari sebuah file CSS yang mengatur font, warna, dan margin dari elemen-elemen pada halaman web. Dengan CSS, Anda dapat mengontrol tampilan dari seluruh website dengan mudah, tanpa perlu mengubah kode HTML masing-masing halaman.&lt;/p>
+&lt;p>CSS merupakan bagian penting dari pengembangan web, dan sangat penting dipahami oleh front-end developer atau siapa saja yang tertarik untuk membuat atau mengelola website.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="3">
+&lt;li>&lt;strong>&lt;code>Javascript&lt;/code>&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>JavaScript adalah bahasa pemrograman yang digunakan untuk menambahkan interaksi dan fitur dinamis pada situs web. JavaScript dapat digunakan untuk menciptakan efek animasi, menangani masukan pengguna, dan mengambil dan menampilkan data dari server. JavaScript biasanya dijalankan di browser web, tetapi juga dapat dijalankan di server menggunakan runtime seperti Node.js.&lt;/p>
+&lt;p>JavaScript merupakan salah satu bahasa pemrograman yang paling populer di dunia, dan sangat penting bagi pengembangan aplikasi web modern. Banyak framework dan library JavaScript yang tersedia, seperti React, Angular, dan Vue.js, yang
+memudahkan pengembangan aplikasi web dengan JavaScript.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="4">
+&lt;li>&lt;strong>&lt;code>React Js&lt;/code>&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>React (juga dikenal sebagai React.js atau ReactJS) adalah sebuah library JavaScript yang dikembangkan oleh Facebook yang digunakan untuk membangun antarmuka pengguna (UI) dalam aplikasi web. React menggunakan prinsip-prinsip pemrograman terstruktur yang disebut &amp;ldquo;react components&amp;rdquo; untuk membuat UI yang terdiri dari bagian-bagian kecil yang dapat digunakan kembali.&lt;/p>
+&lt;p>React menggunakan sintaksis yang disebut JSX, yang memungkinkan Anda menulis kode HTML yang terintegrasi dengan
+JavaScript. Dengan menggunakan React, Anda dapat membangun aplikasi web yang responsif dan skalabel dengan mudah. React
+juga dapat digunakan untuk membangun aplikasi mobile dengan menggunakan framework seperti React Native.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>Nah.. Jadi itu adalah beberapa mengenai teknologi yang dapat membuat sistem aplikasi, sebenernya banyak banget cuma ga mungkin kalo dibahas semua dalam satu artikel wkwkwk. 😅&lt;/p>
+&lt;p>Berikan saya beberapa ide atau topik yang ingin Anda bahas, dan saya akan mencoba membantu Anda membuat outline untuk artikel tersebut. Dengan memiliki ide yang jelas tentang apa yang ingin Anda tulis, saya dapat membantu Anda menyusun struktur yang sesuai dan mengembangkan ide-ide Anda menjadi sebuah artikel yang menarik dan bermanfaat bagi pembaca.&lt;/p>
+&lt;blockquote>
+&lt;p>Info lebih lanjut tentang saya, pantau link github: [my-github]https://github.com/A-fauzi&lt;/p>
+&lt;p>Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a>&lt;/p>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@pawel_czerwinski" target="_blank" rel="noopener"
+>Pawel Czerwinski&lt;/a> on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Coding For Kids</title><link>https://www.newbiemasterid.my.id/article/coding-for-kids/</link><pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.newbiemasterid.my.id/article/coding-for-kids/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/coding-for-kids/coding-for-kids.jpg" alt="Featured image of post Coding For Kids" />&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Halo Sobat &lt;em>&lt;code>NMI&lt;/code>&lt;/em>, ini adalah artikel pertama saya yang akan membahas tentang perkenalan coding untuk anak, semoga kedepan nya dapat mengedukasi temen temen yang baca artikel di &lt;em>&lt;code>NMI&lt;/code>&lt;/em> 👍&lt;/p>
+&lt;p>Go Reading!! 🚀&lt;/p>
+&lt;p>Memperkenalkan koding pada anak usia dini dapat menjadi cara yang baik untuk membantu anak-anak mengembangkan kemampuan berpikir logis dan kritis serta meningkatkan keterampilan mereka di bidang teknologi. Ada beberapa cara yang dapat dilakukan untuk memperkenalkan koding pada anak usia dini, di antaranya:&lt;/p>
+&lt;p>Menggunakan aplikasi atau perangkat yang dirancang khusus untuk anak-anak, seperti Scratch Jr. atau Tynker. Aplikasi ini menyediakan alat yang mudah digunakan dan membantu anak-anak mempelajari dasar-dasar koding dengan cara yang menyenangkan.&lt;/p>
+&lt;p>Menggunakan permainan yang mengajarkan prinsip-prinsip dasar koding, seperti permainan Robot Turtles atau Code-a-Pillar. Permainan ini mengajarkan anak-anak tentang konsep seperti perintah, loop, dan pemecahan masalah.&lt;/p>
+&lt;p>Menggunakan bahan-bahan seperti buku, video, atau aplikasi pembelajaran yang menyediakan konten koding yang disesuaikan dengan tingkat kemampuan anak.&lt;/p>
+&lt;p>Melakukan kegiatan praktis dengan anak-anak, seperti membuat robot sederhana atau membuat aplikasi sederhana menggunakan aplikasi pemrograman yang mudah digunakan.&lt;/p>
+&lt;p>Penting untuk diingat bahwa anak-anak usia dini masih membutuhkan bimbingan dan dukungan dari orang tua atau guru untuk memahami konsep-konsep koding. Jadi, pastikan untuk terus menyemangati dan mendukung anak-anak dalam proses pembelajaran
+koding mereka.&lt;/p>
+&lt;blockquote>
+&lt;p>Info lebih lanjut tentang saya, pantau link github: &lt;a class="link" href="https://github.com/A-fauzi" target="_blank" rel="noopener"
+>my github&lt;/a>&lt;/p>
+&lt;p>Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

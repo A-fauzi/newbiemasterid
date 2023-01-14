@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reference Tag on Newbie Master ID</title><link>https://www.newbiemasterid.my.id/tags/reference-tag/</link><description>Recent content in Reference Tag on Newbie Master ID</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.newbiemasterid.my.id/tags/reference-tag/index.xml" rel="self" type="application/rss+xml"/><item><title>Beberapa referensi teknologi untuk dipelajari</title><link>https://www.newbiemasterid.my.id/article/referensi-teknologi/</link><pubDate>Wed, 28 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.newbiemasterid.my.id/article/referensi-teknologi/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/referensi-teknologi/reference.jpg" alt="Featured image of post Beberapa referensi teknologi untuk dipelajari" />&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Halo Ngab!,&lt;/p>
+&lt;p>Kali ini gue bakal bagiin beberapa referensi teknologi buat ngembangin sistem aplikasi nih, ini sih cocok banget buat kalian yang baru mau belajar tapi bingung nentuin arah tujuan &amp;ldquo;labil ya hehe&amp;rdquo;. 😁&lt;/p>
+&lt;p>Nah.. dalam pengembangan sistem aplikasi itu sebenernya ada dua role yang mengerjakan, yang pertama ada yang nama nya, &amp;ldquo;&lt;code>Front-end&lt;/code>&amp;rdquo;. Dia ini yang bertanggung jawab untuk mengembangkan aplikasi secara tampilan bagian depan, seperti tombol, card view, animation, dan widget lainya sehingga role ini dituntut dapat mengembangkan aplikasi secantik mungkin :)&lt;/p>
+&lt;p>yang kedua ada yang nama nya, &amp;ldquo;&lt;code>Back-end&lt;/code>&amp;rdquo;. Nah untuk role yang satu ini gak kalah penting dalam pengembangan sistem aplikasi karna dia yang akan sediain berbagai macam data untuk nanti di olah dan di kelola oleh &amp;ldquo;&lt;code>Front-end&lt;/code>&amp;rdquo;.&lt;/p>
+&lt;p>Langsung aja gue bakal kasih kalian referensi teknologi yang di pake di kedua role tersebut, agar nanti nya dapat mengembangkan sistem aplikasi secara utuh.&lt;/p>
+&lt;blockquote>
+&lt;h2 id="technology-back-end">Technology Back-end&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>&lt;code>MySQL&lt;/code> (Basis Data)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>MySQL adalah sistem manajemen basis data relasional (RDBMS) yang populer. RDBMS adalah sistem manajemen basis data yang menyimpan data dalam bentuk tabel yang saling terkait dengan menggunakan relasi antar tabel. MySQL merupakan salah satu RDBMS yang paling sering digunakan, karena mudah digunakan, cepat, dan bersifat open source (gratis). MySQL dapat digunakan untuk mengelola basis data yang berisi berbagai jenis data, seperti data transaksi, data inventori, data pelanggan, dan lain-lain. MySQL dapat diintegrasikan dengan berbagai bahasa pemrograman, seperti PHP, Java, dan Python, sehingga dapat digunakan dalam pengembangan aplikasi web, sistem informasi, dan lain-lain.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="2">
+&lt;li>&lt;strong>&lt;code>Postman&lt;/code> (API Testing)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Postman adalah aplikasi atau alat yang digunakan untuk melakukan tes dan debugging API (Application Programming Interface). API adalah sekumpulan fungsi yang disediakan oleh sebuah sistem atau aplikasi untuk dapat diakses dan digunakan oleh aplikasi atau sistem lain. Postman memungkinkan pengguna untuk mengirim permintaan HTTP (Hypertext Transfer Protocol) ke server dan menerima respons yang dikirim oleh server. Permintaan HTTP dapat berupa GET, POST, PUT, DELETE, dan lain-lain. Postman juga memiliki fitur-fitur yang berguna seperti environment variable, collection, testing, mock server, dan lain-lain. Postman banyak digunakan oleh developer untuk menguji API sebelum aplikasi atau sistem tersebut dipublikasikan.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="3">
+&lt;li>&lt;strong>&lt;code>Springboot&lt;/code> (Framework)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Spring Boot adalah framework atau kerangka kerja yang dikembangkan oleh Pivotal untuk memudahkan pengembangan aplikasi Java. Spring Boot merupakan bagian dari proyek Spring yang lebih luas, yang memfokuskan pada kemudahan pengembangan aplikasi Java dengan menyediakan beragam fitur dan konfigurasi yang telah terotomatisasi. Spring Boot menyediakan cara mudah untuk membuat aplikasi Java yang independen, yang dapat dijalankan langsung dari command line atau dari sebuah web container seperti Apache Tomcat. Spring Boot juga menyediakan cara untuk mengkonfigurasi dan mengelola dependensi aplikasi dengan menggunakan Maven atau Gradle. Spring Boot sangat populer karena memudahkan pengembangan aplikasi Java dengan mengurangi konfigurasi yang diperlukan dan memberikan akses ke fitur-fitur yang berguna dari Spring Framework.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="4">
+&lt;li>&lt;strong>&lt;code>Java&lt;/code> (Bahasa Pemrograman)&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>Java adalah bahasa pemrograman yang dikembangkan oleh Sun Microsystems (sekarang Oracle) pada tahun 1995. Java merupakan bahasa pemrograman yang bersifat general-purpose, artinya bahasa ini dapat digunakan untuk membuat berbagai macam aplikasi, seperti aplikasi desktop, aplikasi web, sistem operasi, dan lain-lain. Java mengadopsi sintaksis dari bahasa C++, namun memiliki tipe data yang lebih sederhana dan menggunakan garbage collection untuk mengelola memori secara otomatis. Java juga memiliki fitur-fitur seperti keamanan, portabilitas, dan multithreading, yang membuatnya sangat cocok untuk pengembangan aplikasi yang dapat dijalankan di berbagai sistem operasi. Java juga merupakan bahasa pemrograman yang paling populer di dunia, dan banyak digunakan oleh perusahaan-perusahaan besar di berbagai industri.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;h2 id="technology-front-end">Technology Front-end&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>&lt;code>HTML&lt;/code>&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk menentukan struktur dan konten dari sebuahhalaman web. HTML menggunakan tag-tag yang ditandai dengan tanda kurung siku untuk menandai elemen-elemen yang ada pada halaman, seperti judul, paragraf, daftar, dan lain-lain.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>My Website&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Welcome to my website&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>This is a paragraph on my website&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Home&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>About&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Contact&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>Di atas adalah contoh sederhana dari sebuah halaman web yang ditulis dengan HTML. Halaman tersebut &amp;gt; memiliki judul &amp;ldquo;My
+Website&amp;rdquo;, dan terdiri dari sebuah judul utama (&amp;ldquo;Welcome to my website&amp;rdquo;) dan sebuah paragraf. Di bawahnya, terdapat
+sebuah daftar dengan tiga item.&lt;/p>
+&lt;p>HTML merupakan bagian dasar dari pengembangan web, dan sangat penting untuk dipahami oleh front-end developer atau siapa saja yang tertarik untuk membuat atau mengelola website.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="2">
+&lt;li>&lt;strong>&lt;code>CSS&lt;/code>&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mengontrol tampilan dan nuansa dari sebuah halaman web. Dengan CSS, Anda dapat mengatur aspek-aspek seperti warna, font, margin, dan layout dari elemen-elemen pada halaman web.&lt;/p>
+&lt;p>CSS ditulis dalam file terpisah dari HTML, dan kemudian di-include pada halaman web menggunakan tag&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Contoh CSS:&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">body&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">Arial&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kc">sans-serif&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#333&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#fff&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">margin&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">padding&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">h1&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">margin-bottom&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mf">0.5&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#069&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">p&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">line-height&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mf">1.5&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">margin-bottom&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>Di atas adalah contoh sederhana dari sebuah file CSS yang mengatur font, warna, dan margin dari elemen-elemen pada halaman web. Dengan CSS, Anda dapat mengontrol tampilan dari seluruh website dengan mudah, tanpa perlu mengubah kode HTML masing-masing halaman.&lt;/p>
+&lt;p>CSS merupakan bagian penting dari pengembangan web, dan sangat penting dipahami oleh front-end developer atau siapa saja yang tertarik untuk membuat atau mengelola website.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="3">
+&lt;li>&lt;strong>&lt;code>Javascript&lt;/code>&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>JavaScript adalah bahasa pemrograman yang digunakan untuk menambahkan interaksi dan fitur dinamis pada situs web. JavaScript dapat digunakan untuk menciptakan efek animasi, menangani masukan pengguna, dan mengambil dan menampilkan data dari server. JavaScript biasanya dijalankan di browser web, tetapi juga dapat dijalankan di server menggunakan runtime seperti Node.js.&lt;/p>
+&lt;p>JavaScript merupakan salah satu bahasa pemrograman yang paling populer di dunia, dan sangat penting bagi pengembangan aplikasi web modern. Banyak framework dan library JavaScript yang tersedia, seperti React, Angular, dan Vue.js, yang
+memudahkan pengembangan aplikasi web dengan JavaScript.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;blockquote>
+&lt;ol start="4">
+&lt;li>&lt;strong>&lt;code>React Js&lt;/code>&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;p>React (juga dikenal sebagai React.js atau ReactJS) adalah sebuah library JavaScript yang dikembangkan oleh Facebook yang digunakan untuk membangun antarmuka pengguna (UI) dalam aplikasi web. React menggunakan prinsip-prinsip pemrograman terstruktur yang disebut &amp;ldquo;react components&amp;rdquo; untuk membuat UI yang terdiri dari bagian-bagian kecil yang dapat digunakan kembali.&lt;/p>
+&lt;p>React menggunakan sintaksis yang disebut JSX, yang memungkinkan Anda menulis kode HTML yang terintegrasi dengan
+JavaScript. Dengan menggunakan React, Anda dapat membangun aplikasi web yang responsif dan skalabel dengan mudah. React
+juga dapat digunakan untuk membangun aplikasi mobile dengan menggunakan framework seperti React Native.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>Nah.. Jadi itu adalah beberapa mengenai teknologi yang dapat membuat sistem aplikasi, sebenernya banyak banget cuma ga mungkin kalo dibahas semua dalam satu artikel wkwkwk. 😅&lt;/p>
+&lt;p>Berikan saya beberapa ide atau topik yang ingin Anda bahas, dan saya akan mencoba membantu Anda membuat outline untuk artikel tersebut. Dengan memiliki ide yang jelas tentang apa yang ingin Anda tulis, saya dapat membantu Anda menyusun struktur yang sesuai dan mengembangkan ide-ide Anda menjadi sebuah artikel yang menarik dan bermanfaat bagi pembaca.&lt;/p>
+&lt;blockquote>
+&lt;p>Info lebih lanjut tentang saya, pantau link github: [my-github]https://github.com/A-fauzi&lt;/p>
+&lt;p>Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a>&lt;/p>
+&lt;p>Photo by &lt;a class="link" href="https://unsplash.com/@pawel_czerwinski" target="_blank" rel="noopener"
+>Pawel Czerwinski&lt;/a> on &lt;a class="link" href="https://unsplash.com/" target="_blank" rel="noopener"
+>Unsplash&lt;/a>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>

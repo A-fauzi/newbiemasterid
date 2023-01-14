@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mysql on Newbie Master ID</title><link>https://www.newbiemasterid.my.id/tags/mysql/</link><description>Recent content in mysql on Newbie Master ID</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 03 Jan 2023 11:58:50 +0700</lastBuildDate><atom:link href="https://www.newbiemasterid.my.id/tags/mysql/index.xml" rel="self" type="application/rss+xml"/><item><title>Mengenal Mysql untuk database management aplikasi</title><link>https://www.newbiemasterid.my.id/article/about-mysql/</link><pubDate>Tue, 03 Jan 2023 11:58:50 +0700</pubDate><guid>https://www.newbiemasterid.my.id/article/about-mysql/</guid><description>&lt;img src="https://www.newbiemasterid.my.id/article/about-mysql/mysql.jpg" alt="Featured image of post Mengenal Mysql untuk database management aplikasi" />&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>MySQL adalah sistem manajemen basis data relasional (&lt;code>RDBMS&lt;/code>) yang populer. Ini adalah perangkat lunak yang digunakan untuk mengelola basis data, yang terdiri dari data yang terstruktur dalam tabel-tabel yang terkait satu sama lain melalui relasi. MySQL juga merupakan salah satu bagian dari &lt;code>LAMP&lt;/code> stack (&lt;code>Linux&lt;/code>, &lt;code>Apache&lt;/code>, &lt;code>MySQL&lt;/code>, &lt;code>PHP&lt;/code> / &lt;code>Perl&lt;/code> / &lt;code>Python&lt;/code>), yang merupakan platform yang sering digunakan untuk mengembangkan aplikasi web.&lt;/p>
+&lt;p>MySQL menyediakan banyak fitur yang berguna, seperti:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Query yang kuat: MySQL menyediakan bahasa query yang kuat yang memungkinkan pengguna untuk mengambil data dari basis data dengan mudah.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Kinerja yang baik: MySQL sangat cepat dan efisien dalam mengelola data, yang membuatnya cocok untuk aplikasi web yang membutuhkan akses yang cepat ke data.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fleksibilitas: MySQL dapat digunakan pada berbagai platform, seperti Linux, Windows, dan Mac, dan dapat diintegrasikan dengan banyak bahasa pemrograman, seperti PHP, Perl, dan Python.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Skalabilitas: MySQL dapat menangani basis data yang sangat besar dengan mudah dan memungkinkan pengguna untuk menambahkan hardware tambahan untuk meningkatkan kinerja.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Dukungan: MySQL didukung oleh sebuah komunitas yang aktif yang dapat memberikan bantuan dan solusi untuk masalah yang mungkin terjadi.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>MySQL adalah pilihan yang populer untuk mengelola basis data untuk aplikasi web, meskipun ada juga sistem manajemen basis data lain yang tersedia.&lt;/p>
+&lt;blockquote>
+&lt;p>Info lebih lanjut tentang saya, pantau link github: &lt;a class="link" href="https://github.com/A-fauzi" target="_blank" rel="noopener"
+>my github&lt;/a>&lt;/p>
+&lt;p>Want a site like this? Check out &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
+>hugo-theme-stack-stater&lt;/a>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
