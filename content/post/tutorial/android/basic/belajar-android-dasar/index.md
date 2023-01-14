@@ -337,6 +337,35 @@ Ini adalah salah satu fitur keren di Android Studio, Dalam hal ini, Kalian tahu 
 
 ### Menambahkan padding
 
-Waiting write..
+Nah sekarang teks Kalian punya warna latar belakang nih, selanjutnya Kalian akan menambahkan beberapa spasi (padding) di sekitar teks.
 
-# Dasar dasar android
+`Modifier` digunakan untuk menambah atau menghias komposisi. Satu Pengubah yang dapat Kalian gunakan adalah padding pengubah, yang menerapkan ruang di sekitar elemen (dalam hal ini, menambahkan ruang di sekitar teks). Ini dicapai dengan menggunakan fungsi Modifier.padding().
+
+1.  Tambahkan impor ini ke bagian pernyataan impor.
+    Pastiin untuk menggunakan Optimalkan Impor untuk mengurutkan impor baru berdasarkan abjad.
+
+```kotlin
+import androidx.compose.ui.unit.dp
+import androidx.compose.foundation.layout.padding
+```
+
+2. Tambahkan pengubah padding pada teks dengan ukuran 24.dp, klik Build & Refresh.
+
+> Catatan: Anda mempelajari lebih lanjut tentang kepadatan-independen piksel (DP) di jalur berikutnya, tetapi merujuk ke artikel ini jika Anda ingin membaca lebih lanjut sekarang.
+
+```kotlin
+@Composable
+fun Greeting(name: String) {
+   Surface(color = Color.Magenta) {
+       Text(text = "Hi, my name is $name!", modifier = Modifier.padding(24.dp))
+   }
+}
+```
+
+![img](img/padding.png)
+
+Mantap👏 - Kalian udah buat aplikasi Android pertama di Compose! Ini adalah pencapaian yang bagus. Kalian bisa latihan dan coba coba praktekin apa yang udah kita pelajari.
+
+Semangat💪
+
+Setelah ini kalian bisa masuk ke artikel berikut nya untuk mempelajari [Dasar dasar android]()
